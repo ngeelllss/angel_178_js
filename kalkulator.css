@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #87a922; /* Warna latar belakang */
+  padding-top: 50px; /* Menambahkan padding agar konten muncul di tengah halaman */
+}
+h2 {
+  color: #fff;
+}
+label {
+  font-weight: bold;
+  color: #fff;
+}
+input[type='text'] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.button-container {
+  display: flex;
+  justify-content: space-betwee n;
+}
+button {
+  padding: 8px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Efek transisi untuk perubahan warna latar belakang */
+}
+button:hover {
+  background-color: #45a049;
+  color: white;
+}
+#hasil {
+  font-weight: bold;
+}

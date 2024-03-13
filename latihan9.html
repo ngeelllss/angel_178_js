@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Belajar JavaScript</title>
+  </head>
+  <body>
+    <h1>Belajar JavaScript</h1>
+    <!-- id hasil -->
+    <div id="hasil"></div>
+
+    <script>
+      var warna = 'merah';
+      switch (warna) {
+        case 'hitam':
+          teks = 'warna hitam';
+          break;
+        case 'merah':
+          teks = 'Warna merah';
+          break;
+        case 'hijau':
+          teks = 'Warna hijau';
+          break;
+          teks = 'Warna tidak terdeteksi';
+      }
+
+      document.getElementById('hasil').innerHTML = teks;
+    </script>
+  </body>
+</html>
